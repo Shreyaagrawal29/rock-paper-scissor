@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <h2>Choose your move:</h2>
+    <div class="buttons">
+        <button class="rock" id="rock" onclick="Game('rock')">👊🏻</button>
+        <button class="paper" id="paper" onclick="Game('paper')">🖐🏻</button>
+        <button class="scissors" id="scissors" onclick="Game('scissors')">✌🏻</button>
+    </div>
+    <div id="result"></div>
+    <div class="score">
+        Your score: <span class="player-score" id="playerScore">0</span>
+        Computer score: <span class="computer-score" id="computerScore">0</span>
+    </div>
+    <script src="RPS.js"></script>
+</body>
+
+</html>
